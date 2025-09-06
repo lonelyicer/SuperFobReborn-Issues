@@ -3,7 +3,7 @@ description: When a feature is not behaving as expected. / 当一个功能发生
 labels: [bug]
 body:
   - type: textarea
-    id: Describe / 介绍
+    id: Describe
     attributes:
       label: Describe the bug? / 简单介绍一下BUG内容？
       description: A clear and concise description of what the bug is? / 对这个 bug 的清晰简洁描述？
