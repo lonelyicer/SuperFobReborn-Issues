@@ -1,4 +1,4 @@
-name: Bug Report
+name: Bug Report / 错误反馈
 description: When a feature is not behaving as expected. / 当一个功能发生了非预期行为。
 labels: ["bug / 错误", "wait confirm / 等待确认"]
 body:
