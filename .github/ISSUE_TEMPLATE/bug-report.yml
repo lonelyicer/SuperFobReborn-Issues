@@ -1,0 +1,39 @@
+name: Bug Report
+description: When a feature is not behaving as expected. / 当一个功能发生了非预期行为。
+labels: [bug]
+body:
+  - type: textarea
+    id: Describe / 介绍
+    attributes:
+      label: Describe the bug? / 简单介绍一下BUG内容？
+      description: A clear and concise description of what the bug is? / 对这个 bug 的清晰简洁描述？
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: To Reproduce / 如何复现
+      description: 重现该问题的步骤。
+    validations:
+      required: true
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected behavior / 预期行为
+      description: What was it supposed to look like? / 它本来应该是什么样子？
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots / 截图
+      description: Add media to help explain your problem / 添加媒体文件以帮助说明你的问题。
+    validations:
+      required: false
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context / 补充内容
+      description: Add any other context about the problem here. / 在这里添加任何补充内容。
+    validations:
+      required: false
