@@ -1,6 +1,6 @@
 name: Bug Report
 description: When a feature is not behaving as expected. / 当一个功能发生了非预期行为。
-labels: [bug]
+labels: ["bug / 错误", "wait confirm / 等待确认"]
 body:
   - type: textarea
     id: Describe
